@@ -1,0 +1,19 @@
+input{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 400px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: sans-serif;
+    margin: 5px;
+}
