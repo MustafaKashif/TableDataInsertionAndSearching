@@ -82,7 +82,7 @@ function searchBar(){
     var tr = table.getElementsByTagName('tr');
 
     for (i = 0; i < tr.length; i++) {
-        td = tr[i].getElementsByTagName("td")[2];
+        td = tr[i].getElementsByTagName("td")[1];
         if (td) {
           var textValue= td.innerHTML;
           if (textValue.indexOf(input.value) > -1) {
